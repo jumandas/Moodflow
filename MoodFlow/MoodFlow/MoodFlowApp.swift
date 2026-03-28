@@ -25,7 +25,7 @@ struct MoodFlowApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CheckInView()
         }
         .modelContainer(sharedModelContainer)
     }
