@@ -1,7 +1,7 @@
 # MoodFlow
  
 > **Emotion-guided AI music journeys for iOS**  
-> Built in 48 hours · Hackathon Project · Team of 4
+> Hackathon Project · Team of 4
  
 ---
  
@@ -195,5 +195,5 @@ When real HR data from Apple Watch feeds back into the journey — adjusting BPM
  
 ## License
  
-MIT — built at [Hackathon Name], [Date].
+MIT — built at Claude AI Hackathon , Indiana University Bloomington.
  
