@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcode-select -p)",
+      "Bash(xcrun xcodebuild:*)",
+      "Bash(brew install:*)",
+      "Bash(mkdir -p /Users/juman/Downloads/MoodFlow/MoodFlow/Models)",
+      "Bash(mkdir -p /Users/juman/Downloads/MoodFlow/MoodFlow/Services)",
+      "Bash(mkdir -p /Users/juman/Downloads/MoodFlow/MoodFlow/ViewModels)",
+      "Bash(mkdir -p /Users/juman/Downloads/MoodFlow/MoodFlow/Views/Components)",
+      "Bash(mkdir -p /Users/juman/Downloads/MoodFlow/MoodFlow/Assets.xcassets/AppIcon.appiconset)",
+      "Bash(xcodegen generate:*)",
+      "Bash(xcodebuild -project MoodFlow.xcodeproj -scheme MoodFlow -destination \"generic/platform=iOS\" -allowProvisioningUpdates clean build)",
+      "Bash(xcodebuild -project MoodFlow.xcodeproj -scheme MoodFlow -destination \"platform=iOS Simulator,name=iPhone 16 Pro\" CODE_SIGNING_ALLOWED=NO build)",
+      "Bash(xcrun simctl:*)",
+      "Bash(xcodebuild -project MoodFlow.xcodeproj -scheme MoodFlow -destination \"platform=iOS Simulator,id=90F6393A-16A8-4782-B350-985AF9CD5B83\" CODE_SIGNING_ALLOWED=NO build)",
+      "Bash(xcrun devicectl:*)",
+      "Bash(security find-identity:*)",
+      "Bash(xcodebuild -project MoodFlow.xcodeproj -scheme MoodFlow -destination \"id=33F855EC-EAF1-5173-B449-D3F43DEF12C8\" -allowProvisioningUpdates clean build)",
+      "Bash(open:*)",
+      "Bash(xcodebuild -project MoodFlow.xcodeproj -scheme MoodFlow -destination \"id=33F855EC-EAF1-5173-B449-D3F43DEF12C8\" -allowProvisioningUpdates build)",
+      "Bash(xcodebuild -project MoodFlow.xcodeproj -scheme MoodFlow -destination \"id=A4633813-CD5E-5D4E-8F8D-FF58DA2DD837\" -allowProvisioningUpdates build)",
+      "Bash(xcodebuild -project MoodFlow.xcodeproj -scheme MoodFlow -destination \"id=A4633813-CD5E-5D4E-8F8D-FF58DA2DD837\" -allowProvisioningUpdates install)",
+      "Bash(xcodebuild -project MoodFlow.xcodeproj -scheme MoodFlow -destination \"id=A4633813-CD5E-5D4E-8F8D-FF58DA2DD837\" -allowProvisioningUpdates clean build install)"
+    ]
+  }
+}

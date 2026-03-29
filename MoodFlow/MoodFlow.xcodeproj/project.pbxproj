@@ -6,277 +6,271 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		6BC141BE2F779F4D00A1EC9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6BC141A62F779F4B00A1EC9A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6BC141AD2F779F4B00A1EC9A;
-			remoteInfo = MoodFlow;
-		};
-		6BC141C82F779F4D00A1EC9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6BC141A62F779F4B00A1EC9A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6BC141AD2F779F4B00A1EC9A;
-			remoteInfo = MoodFlow;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		1DA3407F607A2DA398875075 /* SpotifyWebAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245157C4D386F7289F79DAE7 /* SpotifyWebAPIService.swift */; };
+		1F8B1E43DB127E2BCA2DE989 /* BiometricInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0BE9DA73962BCA9A96DEA /* BiometricInput.swift */; };
+		290A4844867430BBB148583E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685FDB57012D218A4A71413 /* Config.swift */; };
+		2DDE5EAA417CCE9E0A853AF2 /* SpotifyPlaybackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37587865DF05FEA173231971 /* SpotifyPlaybackService.swift */; };
+		475A49A236AD182CA9167CCD /* JourneyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FC8EDD98853263DAFAE91 /* JourneyViewModel.swift */; };
+		4D761C06AE842B96189EF284 /* SpotifyAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737907AE845F320E2C791DE7 /* SpotifyAuthService.swift */; };
+		772234326F9E6D408F187609 /* JourneyPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCEBA81F31D38D24433BA7D /* JourneyPreviewView.swift */; };
+		7BC864FB1EBBA5F499BA7EAB /* MoodFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D66616719BFE6C12595C0 /* MoodFlowApp.swift */; };
+		818390DCCE51582A808656D2 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984142B64FEF6ECCAE6D92DB /* Song.swift */; };
+		83D88A7889D70EB5FB4AC5D3 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EEED3F5F926CB3FB4CA644 /* Mood.swift */; };
+		95A4F36C8CDA09E291EC6B6B /* ClaudeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC238CC17A3635C96D75EE4 /* ClaudeService.swift */; };
+		9B935703B1E06603E6E74AE6 /* MoodSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411264E8EB78ACC90A3CE0DE /* MoodSetupView.swift */; };
+		A2544B5A56E5D080F7B6A66B /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556C6588281E6B3E24EDD449 /* Journey.swift */; };
+		A3F7CB672D35858677584255 /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = C8037940251A14707679983B /* SpotifyiOS */; };
+		A735420CF48CD9325C0F0B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0725825F044338A23F68B75 /* Assets.xcassets */; };
+		D156F625CC73798BBCDB389B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62F3362766E96AE07110507 /* LoginView.swift */; };
+		D9DFAE645D9B9B6431C13B53 /* JourneyFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2923FCBE281FD1941E4E54 /* JourneyFlowView.swift */; };
+		DBA62C66EFD45B0AAF952577 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5CF368253CAAEE2B8CDA57 /* AppError.swift */; };
+		E2D47C56597192DD4A2DA348 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73907AD6F593D78EA9971FCF /* Extensions.swift */; };
+		E43E6A6FEFB339ADAD16DFB5 /* JourneyCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC19B402B463BB54219345B4 /* JourneyCompleteView.swift */; };
+		F2CC8897E941213D69133589 /* ActiveJourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C31AE59A1181FD08E18CBF7 /* ActiveJourneyView.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6BC141AE2F779F4B00A1EC9A /* MoodFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BC141BD2F779F4D00A1EC9A /* MoodFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BC141C72F779F4D00A1EC9A /* MoodFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0050E832019F0FBC2C28792D /* MoodFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19EEED3F5F926CB3FB4CA644 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		245157C4D386F7289F79DAE7 /* SpotifyWebAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebAPIService.swift; sourceTree = "<group>"; };
+		2D1FC8EDD98853263DAFAE91 /* JourneyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyViewModel.swift; sourceTree = "<group>"; };
+		37587865DF05FEA173231971 /* SpotifyPlaybackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyPlaybackService.swift; sourceTree = "<group>"; };
+		3C31AE59A1181FD08E18CBF7 /* ActiveJourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveJourneyView.swift; sourceTree = "<group>"; };
+		411264E8EB78ACC90A3CE0DE /* MoodSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSetupView.swift; sourceTree = "<group>"; };
+		4685FDB57012D218A4A71413 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		556C6588281E6B3E24EDD449 /* Journey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey.swift; sourceTree = "<group>"; };
+		737907AE845F320E2C791DE7 /* SpotifyAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthService.swift; sourceTree = "<group>"; };
+		73907AD6F593D78EA9971FCF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		984142B64FEF6ECCAE6D92DB /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		AC5CF368253CAAEE2B8CDA57 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		B0725825F044338A23F68B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C763291B9AFF5AF173A6214C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CAC238CC17A3635C96D75EE4 /* ClaudeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeService.swift; sourceTree = "<group>"; };
+		CC19B402B463BB54219345B4 /* JourneyCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyCompleteView.swift; sourceTree = "<group>"; };
+		E08D66616719BFE6C12595C0 /* MoodFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodFlowApp.swift; sourceTree = "<group>"; };
+		E2A0BE9DA73962BCA9A96DEA /* BiometricInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricInput.swift; sourceTree = "<group>"; };
+		E62F3362766E96AE07110507 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EFCEBA81F31D38D24433BA7D /* JourneyPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyPreviewView.swift; sourceTree = "<group>"; };
+		FF2923FCBE281FD1941E4E54 /* JourneyFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyFlowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		6BC141B02F779F4B00A1EC9A /* MoodFlow */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoodFlow;
-			sourceTree = "<group>";
-		};
-		6BC141C02F779F4D00A1EC9A /* MoodFlowTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoodFlowTests;
-			sourceTree = "<group>";
-		};
-		6BC141CA2F779F4D00A1EC9A /* MoodFlowUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoodFlowUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		6BC141AB2F779F4B00A1EC9A /* Frameworks */ = {
+		8D6759C85FAD538725C78B7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BC141BA2F779F4D00A1EC9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BC141C42F779F4D00A1EC9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A3F7CB672D35858677584255 /* SpotifyiOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6BC141A52F779F4B00A1EC9A = {
+		3165ECF54212FA962960E5CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BC141B02F779F4B00A1EC9A /* MoodFlow */,
-				6BC141C02F779F4D00A1EC9A /* MoodFlowTests */,
-				6BC141CA2F779F4D00A1EC9A /* MoodFlowUITests */,
-				6BC141AF2F779F4B00A1EC9A /* Products */,
+				0050E832019F0FBC2C28792D /* MoodFlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BE556E11DB4BE6972655B4E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D1FC8EDD98853263DAFAE91 /* JourneyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6A923F77FBA5CEDD6B211996 = {
+			isa = PBXGroup;
+			children = (
+				B007A0A5DDC452A6A869C854 /* MoodFlow */,
+				3165ECF54212FA962960E5CE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6BC141AF2F779F4B00A1EC9A /* Products */ = {
+		A0B909E20B868067BC0286B7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				6BC141AE2F779F4B00A1EC9A /* MoodFlow.app */,
-				6BC141BD2F779F4D00A1EC9A /* MoodFlowTests.xctest */,
-				6BC141C72F779F4D00A1EC9A /* MoodFlowUITests.xctest */,
+				CAC238CC17A3635C96D75EE4 /* ClaudeService.swift */,
+				737907AE845F320E2C791DE7 /* SpotifyAuthService.swift */,
+				37587865DF05FEA173231971 /* SpotifyPlaybackService.swift */,
+				245157C4D386F7289F79DAE7 /* SpotifyWebAPIService.swift */,
 			);
-			name = Products;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B007A0A5DDC452A6A869C854 /* MoodFlow */ = {
+			isa = PBXGroup;
+			children = (
+				B0725825F044338A23F68B75 /* Assets.xcassets */,
+				4685FDB57012D218A4A71413 /* Config.swift */,
+				C763291B9AFF5AF173A6214C /* Info.plist */,
+				E08D66616719BFE6C12595C0 /* MoodFlowApp.swift */,
+				C1C74161C7C836D430130CBD /* Models */,
+				A0B909E20B868067BC0286B7 /* Services */,
+				3BE556E11DB4BE6972655B4E /* ViewModels */,
+				EC697F5C729DC59237C6F369 /* Views */,
+			);
+			path = MoodFlow;
+			sourceTree = "<group>";
+		};
+		C1C74161C7C836D430130CBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC5CF368253CAAEE2B8CDA57 /* AppError.swift */,
+				E2A0BE9DA73962BCA9A96DEA /* BiometricInput.swift */,
+				73907AD6F593D78EA9971FCF /* Extensions.swift */,
+				556C6588281E6B3E24EDD449 /* Journey.swift */,
+				19EEED3F5F926CB3FB4CA644 /* Mood.swift */,
+				984142B64FEF6ECCAE6D92DB /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC697F5C729DC59237C6F369 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C31AE59A1181FD08E18CBF7 /* ActiveJourneyView.swift */,
+				CC19B402B463BB54219345B4 /* JourneyCompleteView.swift */,
+				FF2923FCBE281FD1941E4E54 /* JourneyFlowView.swift */,
+				EFCEBA81F31D38D24433BA7D /* JourneyPreviewView.swift */,
+				E62F3362766E96AE07110507 /* LoginView.swift */,
+				411264E8EB78ACC90A3CE0DE /* MoodSetupView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6BC141AD2F779F4B00A1EC9A /* MoodFlow */ = {
+		843EE80E781AB685DF96B18E /* MoodFlow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BC141D12F779F4D00A1EC9A /* Build configuration list for PBXNativeTarget "MoodFlow" */;
+			buildConfigurationList = 942B831B8CA04443DD8AA834 /* Build configuration list for PBXNativeTarget "MoodFlow" */;
 			buildPhases = (
-				6BC141AA2F779F4B00A1EC9A /* Sources */,
-				6BC141AB2F779F4B00A1EC9A /* Frameworks */,
-				6BC141AC2F779F4B00A1EC9A /* Resources */,
+				F1B9FFC833CC2073A73E0677 /* Sources */,
+				280F3A1FFCDEC2E5C2F968B9 /* Resources */,
+				8D6759C85FAD538725C78B7C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				6BC141B02F779F4B00A1EC9A /* MoodFlow */,
 			);
 			name = MoodFlow;
 			packageProductDependencies = (
+				C8037940251A14707679983B /* SpotifyiOS */,
 			);
 			productName = MoodFlow;
-			productReference = 6BC141AE2F779F4B00A1EC9A /* MoodFlow.app */;
+			productReference = 0050E832019F0FBC2C28792D /* MoodFlow.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6BC141BC2F779F4D00A1EC9A /* MoodFlowTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6BC141D42F779F4D00A1EC9A /* Build configuration list for PBXNativeTarget "MoodFlowTests" */;
-			buildPhases = (
-				6BC141B92F779F4D00A1EC9A /* Sources */,
-				6BC141BA2F779F4D00A1EC9A /* Frameworks */,
-				6BC141BB2F779F4D00A1EC9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6BC141BF2F779F4D00A1EC9A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6BC141C02F779F4D00A1EC9A /* MoodFlowTests */,
-			);
-			name = MoodFlowTests;
-			packageProductDependencies = (
-			);
-			productName = MoodFlowTests;
-			productReference = 6BC141BD2F779F4D00A1EC9A /* MoodFlowTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6BC141C62F779F4D00A1EC9A /* MoodFlowUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6BC141D72F779F4D00A1EC9A /* Build configuration list for PBXNativeTarget "MoodFlowUITests" */;
-			buildPhases = (
-				6BC141C32F779F4D00A1EC9A /* Sources */,
-				6BC141C42F779F4D00A1EC9A /* Frameworks */,
-				6BC141C52F779F4D00A1EC9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6BC141C92F779F4D00A1EC9A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6BC141CA2F779F4D00A1EC9A /* MoodFlowUITests */,
-			);
-			name = MoodFlowUITests;
-			packageProductDependencies = (
-			);
-			productName = MoodFlowUITests;
-			productReference = 6BC141C72F779F4D00A1EC9A /* MoodFlowUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6BC141A62F779F4B00A1EC9A /* Project object */ = {
+		68277898004D1019C463D492 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2640;
-				LastUpgradeCheck = 2640;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					6BC141AD2F779F4B00A1EC9A = {
-						CreatedOnToolsVersion = 26.4;
-					};
-					6BC141BC2F779F4D00A1EC9A = {
-						CreatedOnToolsVersion = 26.4;
-						TestTargetID = 6BC141AD2F779F4B00A1EC9A;
-					};
-					6BC141C62F779F4D00A1EC9A = {
-						CreatedOnToolsVersion = 26.4;
-						TestTargetID = 6BC141AD2F779F4B00A1EC9A;
+					843EE80E781AB685DF96B18E = {
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 6BC141A92F779F4B00A1EC9A /* Build configuration list for PBXProject "MoodFlow" */;
+			buildConfigurationList = 86A967BD80916C8C50BE0D38 /* Build configuration list for PBXProject "MoodFlow" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 6BC141A52F779F4B00A1EC9A;
+			mainGroup = 6A923F77FBA5CEDD6B211996;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				69F28949FFA8540C05325598 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6BC141AF2F779F4B00A1EC9A /* Products */;
+			productRefGroup = 3165ECF54212FA962960E5CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BC141AD2F779F4B00A1EC9A /* MoodFlow */,
-				6BC141BC2F779F4D00A1EC9A /* MoodFlowTests */,
-				6BC141C62F779F4D00A1EC9A /* MoodFlowUITests */,
+				843EE80E781AB685DF96B18E /* MoodFlow */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6BC141AC2F779F4B00A1EC9A /* Resources */ = {
+		280F3A1FFCDEC2E5C2F968B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BC141BB2F779F4D00A1EC9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BC141C52F779F4D00A1EC9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A735420CF48CD9325C0F0B14 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6BC141AA2F779F4B00A1EC9A /* Sources */ = {
+		F1B9FFC833CC2073A73E0677 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BC141B92F779F4D00A1EC9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BC141C32F779F4D00A1EC9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F2CC8897E941213D69133589 /* ActiveJourneyView.swift in Sources */,
+				DBA62C66EFD45B0AAF952577 /* AppError.swift in Sources */,
+				1F8B1E43DB127E2BCA2DE989 /* BiometricInput.swift in Sources */,
+				95A4F36C8CDA09E291EC6B6B /* ClaudeService.swift in Sources */,
+				290A4844867430BBB148583E /* Config.swift in Sources */,
+				E2D47C56597192DD4A2DA348 /* Extensions.swift in Sources */,
+				A2544B5A56E5D080F7B6A66B /* Journey.swift in Sources */,
+				E43E6A6FEFB339ADAD16DFB5 /* JourneyCompleteView.swift in Sources */,
+				D9DFAE645D9B9B6431C13B53 /* JourneyFlowView.swift in Sources */,
+				772234326F9E6D408F187609 /* JourneyPreviewView.swift in Sources */,
+				475A49A236AD182CA9167CCD /* JourneyViewModel.swift in Sources */,
+				D156F625CC73798BBCDB389B /* LoginView.swift in Sources */,
+				83D88A7889D70EB5FB4AC5D3 /* Mood.swift in Sources */,
+				7BC864FB1EBBA5F499BA7EAB /* MoodFlowApp.swift in Sources */,
+				9B935703B1E06603E6E74AE6 /* MoodSetupView.swift in Sources */,
+				818390DCCE51582A808656D2 /* Song.swift in Sources */,
+				4D761C06AE842B96189EF284 /* SpotifyAuthService.swift in Sources */,
+				2DDE5EAA417CCE9E0A853AF2 /* SpotifyPlaybackService.swift in Sources */,
+				1DA3407F607A2DA398875075 /* SpotifyWebAPIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6BC141BF2F779F4D00A1EC9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6BC141AD2F779F4B00A1EC9A /* MoodFlow */;
-			targetProxy = 6BC141BE2F779F4D00A1EC9A /* PBXContainerItemProxy */;
-		};
-		6BC141C92F779F4D00A1EC9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6BC141AD2F779F4B00A1EC9A /* MoodFlow */;
-			targetProxy = 6BC141C82F779F4D00A1EC9A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		6BC141CF2F779F4D00A1EC9A /* Debug */ = {
+		1F1BA66C3463CC88B24AE340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P882KH9CZ;
+				INFOPLIST_FILE = MoodFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyush.moodflow.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75D60C090041D712E41FC7F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -306,14 +300,13 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -321,23 +314,46 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		6BC141D02F779F4D00A1EC9A /* Release */ = {
+		7FDEE79FFBD8BA75CE2079EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P882KH9CZ;
+				INFOPLIST_FILE = MoodFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyush.moodflow.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9D4F2FFC3763A067D2D9A66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -367,8 +383,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -376,235 +391,58 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-			};
-			name = Release;
-		};
-		6BC141D22F779F4D00A1EC9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wolfpack.MoodFlow;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.4;
-			};
-			name = Debug;
-		};
-		6BC141D32F779F4D00A1EC9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wolfpack.MoodFlow;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.4;
-			};
-			name = Release;
-		};
-		6BC141D52F779F4D00A1EC9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
-				MACOSX_DEPLOYMENT_TARGET = 26.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wolfpack.MoodFlowTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodFlow";
-				XROS_DEPLOYMENT_TARGET = 26.4;
-			};
-			name = Debug;
-		};
-		6BC141D62F779F4D00A1EC9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
-				MACOSX_DEPLOYMENT_TARGET = 26.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wolfpack.MoodFlowTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodFlow";
-				XROS_DEPLOYMENT_TARGET = 26.4;
-			};
-			name = Release;
-		};
-		6BC141D82F779F4D00A1EC9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
-				MACOSX_DEPLOYMENT_TARGET = 26.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wolfpack.MoodFlowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = MoodFlow;
-				XROS_DEPLOYMENT_TARGET = 26.4;
-			};
-			name = Debug;
-		};
-		6BC141D92F779F4D00A1EC9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
-				MACOSX_DEPLOYMENT_TARGET = 26.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wolfpack.MoodFlowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = MoodFlow;
-				XROS_DEPLOYMENT_TARGET = 26.4;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6BC141A92F779F4B00A1EC9A /* Build configuration list for PBXProject "MoodFlow" */ = {
+		86A967BD80916C8C50BE0D38 /* Build configuration list for PBXProject "MoodFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BC141CF2F779F4D00A1EC9A /* Debug */,
-				6BC141D02F779F4D00A1EC9A /* Release */,
+				75D60C090041D712E41FC7F7 /* Debug */,
+				C9D4F2FFC3763A067D2D9A66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		6BC141D12F779F4D00A1EC9A /* Build configuration list for PBXNativeTarget "MoodFlow" */ = {
+		942B831B8CA04443DD8AA834 /* Build configuration list for PBXNativeTarget "MoodFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BC141D22F779F4D00A1EC9A /* Debug */,
-				6BC141D32F779F4D00A1EC9A /* Release */,
+				7FDEE79FFBD8BA75CE2079EF /* Debug */,
+				1F1BA66C3463CC88B24AE340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6BC141D42F779F4D00A1EC9A /* Build configuration list for PBXNativeTarget "MoodFlowTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6BC141D52F779F4D00A1EC9A /* Debug */,
-				6BC141D62F779F4D00A1EC9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6BC141D72F779F4D00A1EC9A /* Build configuration list for PBXNativeTarget "MoodFlowUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6BC141D82F779F4D00A1EC9A /* Debug */,
-				6BC141D92F779F4D00A1EC9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		69F28949FFA8540C05325598 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spotify/ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8037940251A14707679983B /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69F28949FFA8540C05325598 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = SpotifyiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 6BC141A62F779F4B00A1EC9A /* Project object */;
+	rootObject = 68277898004D1019C463D492 /* Project object */;
 }

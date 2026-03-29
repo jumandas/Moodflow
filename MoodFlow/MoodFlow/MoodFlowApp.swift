@@ -1,32 +1,55 @@
-//
-//  MoodFlowApp.swift
-//  MoodFlow
-//
-//  Created by Juman on 3/28/26.
-//
-
 import SwiftUI
-import SwiftData
 
 @main
 struct MoodFlowApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+    @StateObject private var authService = SpotifyAuthService()
+    @StateObject private var playbackService = SpotifyPlaybackService()
 
     var body: some Scene {
         WindowGroup {
-            CheckInView()
+            RootView(
+                authService: authService,
+                playbackService: playbackService
+            )
+            .preferredColorScheme(.dark)
+            .onOpenURL { url in
+                playbackService.handleOpenURL(url)
+            }
         }
-        .modelContainer(sharedModelContainer)
+    }
+}
+
+struct RootView: View {
+    @ObservedObject var authService: SpotifyAuthService
+    @ObservedObject var playbackService: SpotifyPlaybackService
+
+    var body: some View {
+        Group {
+            if authService.isAuthenticated {
+                AppContentView(
+                    authService: authService,
+                    playbackService: playbackService
+                )
+            } else {
+                LoginView(authService: authService)
+            }
+        }
+        .animation(.easeInOut, value: authService.isAuthenticated)
+    }
+}
+
+struct AppContentView: View {
+    @StateObject private var vm: JourneyViewModel
+
+    init(authService: SpotifyAuthService, playbackService: SpotifyPlaybackService) {
+        _vm = StateObject(wrappedValue: JourneyViewModel(
+            authService: authService,
+            playbackService: playbackService
+        ))
+    }
+
+    var body: some View {
+        JourneyFlowView(vm: vm)
     }
 }

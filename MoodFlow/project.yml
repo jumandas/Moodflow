@@ -1,0 +1,47 @@
+name: MoodFlow
+options:
+  bundleIdPrefix: com.moodflow
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+
+packages:
+  SpotifyiOS:
+    url: https://github.com/spotify/ios-sdk
+    from: "2.1.5"
+
+targets:
+  MoodFlow:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - MoodFlow
+    info:
+      path: MoodFlow/Info.plist
+      properties:
+        CFBundleDisplayName: MoodFlow
+        CFBundleURLTypes:
+          - CFBundleURLName: com.moodflow.app
+            CFBundleURLSchemes:
+              - moodflow
+        LSApplicationQueriesSchemes:
+          - spotify
+        UIBackgroundModes:
+          - audio
+        UILaunchScreen:
+          UIColorName: ""
+          UIImageName: ""
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.moodflow.app
+        SWIFT_VERSION: "5.9"
+        IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+        DEVELOPMENT_TEAM: HU42355A64
+        CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - package: SpotifyiOS
+        product: SpotifyiOS
